@@ -3,7 +3,7 @@
 #include <string>
 #include "Cards.h"
 #include <sstream>
-sing namespace std;
+using namespace std;
 
 Card::Card(Suit suit,Rank rank){
     this->suit=suit;
