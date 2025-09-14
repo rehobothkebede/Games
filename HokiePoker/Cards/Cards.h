@@ -36,4 +36,7 @@ struct Deck{
     Deck();
     Deck(int);    
 };
+
+// I hate c++
+
 #endif
