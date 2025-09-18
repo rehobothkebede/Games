@@ -14,3 +14,11 @@ TEST_CASE("Test create Deck with two constructors") {
     CHECK(d2.cards[0].to_string() == "2 of Clubs");
     CHECK(d2.cards[51].to_string() == "Ace of Spades");
 }
+
+
+/*TEST_CASE("Test creat Decks") {
+
+
+
+
+}*/
