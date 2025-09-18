@@ -4,9 +4,7 @@
 #include <vector>
 #include <string>
 #include <sstream>
-
 using namespace std;
-
 
 
 enum Suit {NONE, CLUBS, DIAMONDS, HEARTS, SPADES};
@@ -37,6 +35,6 @@ struct Deck{
     Deck(int);    
 };
 
-// I hate c++
+
 
 #endif
