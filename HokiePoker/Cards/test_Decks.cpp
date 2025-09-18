@@ -16,7 +16,7 @@ TEST_CASE("Test create Deck with two constructors") {
 }
 
 
-/*TEST_CASE("Test creat Decks") {
+/*TEST_CASE("Test create Decks") {
 
 
 
