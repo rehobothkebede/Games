@@ -25,6 +25,9 @@ struct Card{
     bool operator > (const Card& other) const;
     bool operator <= (const Card& other) const;
     bool operator >= (const Card& other) const;
+
+    bool eqauls() const;    
+
 };
 
 
@@ -33,6 +36,9 @@ struct Deck{
 
     Deck();
     Deck(int);    
+
+
+
 };
 
 

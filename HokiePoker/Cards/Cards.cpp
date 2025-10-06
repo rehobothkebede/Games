@@ -16,6 +16,10 @@ string Card::to_string() const{
     
     return rank_strings[rank] + " of " + suit_strings[suit];
 }
+bool Card::equals() const{
+    if(this
+
+}
 bool Card::operator == (const Card& other) const {
     return rank == other.rank && suit == other.suit;
 }
@@ -37,6 +41,11 @@ bool Card::operator <= (const Card& other) const {
 bool Card::operator >= (const Card& other) const {
     return !(other > *this);
 }
+
+
+
+
+
 
 Deck::Deck(int size)
 {
