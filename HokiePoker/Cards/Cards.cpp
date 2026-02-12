@@ -16,8 +16,6 @@ string Card::to_string() const{
     
     return rank_strings[rank] + " of " + suit_strings[suit];
 }
-bool Card::equals() const{
-    if(this
 
 }
 bool Card::operator == (const Card& other) const {
@@ -45,8 +43,6 @@ bool Card::operator >= (const Card& other) const {
 
 
 
-
-
 Deck::Deck(int size)
 {
     vector<Card> temp(size);
@@ -56,7 +52,7 @@ Deck::Deck(int size)
 Deck::Deck()
 {
     for (Suit suit = CLUBS; suit <= SPADES; suit = Suit(suit + 1)) {
-        for (Rank rank = ACE; rank <= KING; rank = Rank(rank + 1)) {
+        for (Rank rank = TWO; rank <= ACE; rank = Rank(rank + 1)) {
             cards.emplace_back(rank, suit);
         }
     }

@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 #include <sstream>
+#include <unorderd_map>
 using namespace std;
 
 
@@ -26,18 +27,15 @@ struct Card{
     bool operator <= (const Card& other) const;
     bool operator >= (const Card& other) const;
 
-    bool eqauls() const;    
 
 };
 
 
 struct Deck{ 
-    vector<Card> card();
+    vector<Card> card;
 
     Deck();
     Deck(int);    
-
-
 
 };
 
